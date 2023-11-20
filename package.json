@@ -25,6 +25,10 @@
     "parserOptions": {
       "project": "./tsconfig.json"
     },
-    "extends": ["./node_modules/ts-standard/eslintrc.json"]
+    "extends": ["./node_modules/ts-standard/eslintrc.json"],
+    "rules": {
+      "semi": ["error", "never"],
+      "object-curly-spacing": ["error", "always"]
+    }
   }
 }
